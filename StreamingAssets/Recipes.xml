@@ -1,0 +1,777 @@
+<!-- LEGEND -->
+<!-- Recipe ID - Used to identify the recipe. -->
+<!-- Name - The name of the recipe that appears in-game on the ticket and recipe card. -->
+<!-- Type - Currently not used extensively, but ties the recipe to the food. -->
+<!-- Ingredients - Ingredients that are required to compose this recipe. -->
+     <!-- Ingredient ID - Used to identify the ingredient. -->
+     <!-- Amount - How much of this ingredient must be present in the order for it to be valid. -->
+     <!-- Occurrence - The chance of this ingredient being included in the recipe. Effects exclusions to orders. -->
+<Database>
+
+  <!-- SIMPLE BURGERS -->
+
+  <Recipe ID="HAMBURGER">
+      <Name>Hamburger</Name>
+      <Type>SIMPLE_BURGER</Type>
+      <Ingredients>
+          <Ingredient>
+              <IngredientID>BEEF_PATTY</IngredientID>
+              <Amount>1</Amount>
+              <Occurrence>1.0</Occurrence>
+          </Ingredient>
+          <Ingredient>
+              <IngredientID>WHITE_BUN</IngredientID>
+              <Amount>2</Amount>
+              <Occurrence>1.0</Occurrence>
+          </Ingredient>
+          <Ingredient>
+              <IngredientID>PICKLES</IngredientID>
+              <Amount>1</Amount>
+              <Occurrence>0.75</Occurrence>
+          </Ingredient>
+          <Ingredient>
+              <IngredientID>KETCHUP</IngredientID>
+              <Amount>1</Amount>
+              <Occurrence>0.75</Occurrence>
+          </Ingredient>
+          <Ingredient>
+              <IngredientID>MUSTARD</IngredientID>
+              <Amount>1</Amount>
+              <Occurrence>0.75</Occurrence>
+          </Ingredient>
+      </Ingredients>
+  </Recipe>
+  <Recipe ID="DOUBLE_HAMBURGER">
+      <Name>Double Hamburger</Name>
+      <Type>SIMPLE_BURGER</Type>
+      <Ingredients>
+          <Ingredient>
+              <IngredientID>BEEF_PATTY</IngredientID>
+              <Amount>2</Amount>
+              <Occurrence>1.0</Occurrence>
+          </Ingredient>
+          <Ingredient>
+              <IngredientID>WHITE_BUN</IngredientID>
+              <Amount>2</Amount>
+              <Occurrence>1.0</Occurrence>
+          </Ingredient>
+          <Ingredient>
+              <IngredientID>PICKLES</IngredientID>
+              <Amount>1</Amount>
+              <Occurrence>0.75</Occurrence>
+          </Ingredient>
+          <Ingredient>
+              <IngredientID>KETCHUP</IngredientID>
+              <Amount>1</Amount>
+              <Occurrence>0.75</Occurrence>
+          </Ingredient>
+          <Ingredient>
+              <IngredientID>MUSTARD</IngredientID>
+              <Amount>1</Amount>
+              <Occurrence>0.75</Occurrence>
+          </Ingredient>
+      </Ingredients>
+  </Recipe>
+  <Recipe ID="TRIPLE_HAMBURGER">
+    <Name>Triple Hamburger</Name>
+    <Type>SIMPLE_BURGER</Type>
+    <Ingredients>
+      <Ingredient>
+        <IngredientID>BEEF_PATTY</IngredientID>
+        <Amount>3</Amount>
+        <Occurrence>1.0</Occurrence>
+      </Ingredient>
+      <Ingredient>
+        <IngredientID>WHITE_BUN</IngredientID>
+        <Amount>2</Amount>
+        <Occurrence>1.0</Occurrence>
+      </Ingredient>
+      <Ingredient>
+        <IngredientID>PICKLES</IngredientID>
+        <Amount>1</Amount>
+        <Occurrence>0.75</Occurrence>
+      </Ingredient>
+      <Ingredient>
+        <IngredientID>KETCHUP</IngredientID>
+        <Amount>1</Amount>
+        <Occurrence>0.75</Occurrence>
+      </Ingredient>
+      <Ingredient>
+        <IngredientID>MUSTARD</IngredientID>
+        <Amount>1</Amount>
+        <Occurrence>0.75</Occurrence>
+      </Ingredient>
+    </Ingredients>
+  </Recipe>
+  
+  <!-- Simple Cheeseburgers -->
+  
+  <Recipe ID="CHEESEBURGER">
+      <Name>Cheeseburger</Name>
+      <Type>SIMPLE_CHEESEBURGER</Type>
+      <Ingredients>
+          <Ingredient>
+              <IngredientID>BEEF_PATTY</IngredientID>
+              <Amount>1</Amount>
+              <Occurrence>1.0</Occurrence>
+          </Ingredient>
+          <Ingredient>
+              <IngredientID>WHITE_BUN</IngredientID>
+              <Amount>2</Amount>
+              <Occurrence>1.0</Occurrence>
+          </Ingredient>
+          <Ingredient>
+              <IngredientID>AMERICAN_CHEESE</IngredientID>
+              <Amount>1</Amount>
+              <Occurrence>1.0</Occurrence>
+          </Ingredient>
+          <Ingredient>
+              <IngredientID>PICKLES</IngredientID>
+              <Amount>1</Amount>
+              <Occurrence>0.75</Occurrence>
+          </Ingredient>
+          <Ingredient>
+              <IngredientID>KETCHUP</IngredientID>
+              <Amount>1</Amount>
+              <Occurrence>0.75</Occurrence>
+          </Ingredient>
+          <Ingredient>
+              <IngredientID>MUSTARD</IngredientID>
+              <Amount>1</Amount>
+              <Occurrence>0.75</Occurrence>
+          </Ingredient>
+      </Ingredients>
+  </Recipe>
+  <Recipe ID="DOUBLE_CHEESEBURGER">
+      <Name>Double Cheeseburger</Name>
+      <Type>SIMPLE_CHEESEBURGER</Type>
+      <Ingredients>
+          <Ingredient>
+              <IngredientID>BEEF_PATTY</IngredientID>
+              <Amount>2</Amount>
+              <Occurrence>1.0</Occurrence>
+          </Ingredient>
+          <Ingredient>
+              <IngredientID>WHITE_BUN</IngredientID>
+              <Amount>2</Amount>
+              <Occurrence>1.0</Occurrence>
+          </Ingredient>
+          <Ingredient>
+              <IngredientID>AMERICAN_CHEESE</IngredientID>
+              <Amount>2</Amount>
+              <Occurrence>1.0</Occurrence>
+          </Ingredient>
+          <Ingredient>
+              <IngredientID>PICKLES</IngredientID>
+              <Amount>1</Amount>
+              <Occurrence>0.75</Occurrence>
+          </Ingredient>
+          <Ingredient>
+              <IngredientID>KETCHUP</IngredientID>
+              <Amount>1</Amount>
+              <Occurrence>0.75</Occurrence>
+          </Ingredient>
+          <Ingredient>
+              <IngredientID>MUSTARD</IngredientID>
+              <Amount>1</Amount>
+              <Occurrence>0.75</Occurrence>
+          </Ingredient>
+      </Ingredients>
+  </Recipe>
+  <Recipe ID="TRIPLE_CHEESEBURGER">
+    <Name>Triple Cheeseburger</Name>
+    <Type>SIMPLE_CHEESEBURGER</Type>
+    <Ingredients>
+      <Ingredient>
+        <IngredientID>BEEF_PATTY</IngredientID>
+        <Amount>3</Amount>
+        <Occurrence>1.0</Occurrence>
+      </Ingredient>
+      <Ingredient>
+        <IngredientID>WHITE_BUN</IngredientID>
+        <Amount>2</Amount>
+        <Occurrence>1.0</Occurrence>
+      </Ingredient>
+      <Ingredient>
+        <IngredientID>AMERICAN_CHEESE</IngredientID>
+        <Amount>3</Amount>
+        <Occurrence>1.0</Occurrence>
+      </Ingredient>
+      <Ingredient>
+        <IngredientID>PICKLES</IngredientID>
+        <Amount>1</Amount>
+        <Occurrence>0.75</Occurrence>
+      </Ingredient>
+      <Ingredient>
+        <IngredientID>KETCHUP</IngredientID>
+        <Amount>1</Amount>
+        <Occurrence>0.75</Occurrence>
+      </Ingredient>
+      <Ingredient>
+        <IngredientID>MUSTARD</IngredientID>
+        <Amount>1</Amount>
+        <Occurrence>0.75</Occurrence>
+      </Ingredient>
+    </Ingredients>
+  </Recipe>
+
+  <!-- SIDES -->
+
+  <!-- French Fries -->
+  <Recipe ID="SMALL_FRENCH_FRIES">
+    <Name>Small French Fries</Name>
+    <Type>FRIED_SIDES</Type>
+    <Ingredients>
+      <Ingredient>
+        <IngredientID>SMALL_CONTAINER</IngredientID>
+        <Amount>1</Amount>
+        <Occurrence>1.0</Occurrence>
+      </Ingredient>
+      <Ingredient>
+        <IngredientID>FRENCH_FRIES</IngredientID>
+        <Amount>1</Amount>
+        <Occurrence>1.0</Occurrence>
+      </Ingredient>
+      <Ingredient>
+        <IngredientID>SALT</IngredientID>
+        <Amount>1</Amount>
+        <Occurrence>0.9</Occurrence>
+      </Ingredient>
+      <Ingredient>
+        <IngredientID>PEPPER</IngredientID>
+        <Amount>1</Amount>
+        <Occurrence>0.9</Occurrence>
+      </Ingredient>
+    </Ingredients>
+  </Recipe>
+  <Recipe ID="MEDIUM_FRENCH_FRIES">
+    <Name>Medium French Fries</Name>
+    <Type>FRIED_SIDES</Type>
+    <Ingredients>
+      <Ingredient>
+        <IngredientID>MEDIUM_CONTAINER</IngredientID>
+        <Amount>1</Amount>
+        <Occurrence>1.0</Occurrence>
+      </Ingredient>
+      <Ingredient>
+        <IngredientID>FRENCH_FRIES</IngredientID>
+        <Amount>1</Amount>
+        <Occurrence>1.0</Occurrence>
+      </Ingredient>
+      <Ingredient>
+        <IngredientID>SALT</IngredientID>
+        <Amount>1</Amount>
+        <Occurrence>0.9</Occurrence>
+      </Ingredient>
+      <Ingredient>
+        <IngredientID>PEPPER</IngredientID>
+        <Amount>1</Amount>
+        <Occurrence>0.9</Occurrence>
+      </Ingredient>
+    </Ingredients>
+  </Recipe>
+  <Recipe ID="LARGE_FRENCH_FRIES">
+    <Name>Large French Fries</Name>
+    <Type>FRIED_SIDES</Type>
+    <Ingredients>
+      <Ingredient>
+        <IngredientID>LARGE_CONTAINER</IngredientID>
+        <Amount>1</Amount>
+        <Occurrence>1.0</Occurrence>
+      </Ingredient>
+      <Ingredient>
+        <IngredientID>FRENCH_FRIES</IngredientID>
+        <Amount>1</Amount>
+        <Occurrence>1.0</Occurrence>
+      </Ingredient>
+      <Ingredient>
+        <IngredientID>SALT</IngredientID>
+        <Amount>1</Amount>
+        <Occurrence>0.9</Occurrence>
+      </Ingredient>
+      <Ingredient>
+        <IngredientID>PEPPER</IngredientID>
+        <Amount>1</Amount>
+        <Occurrence>0.9</Occurrence>
+      </Ingredient>
+    </Ingredients>
+  </Recipe>
+  
+  <!-- Tater Tots -->
+  <Recipe ID="SMALL_TATER_TOTS">
+    <Name>Small Tater Tots</Name>
+    <Type>FRIED_SIDES</Type>
+    <Ingredients>
+      <Ingredient>
+        <IngredientID>SMALL_CONTAINER</IngredientID>
+        <Amount>1</Amount>
+        <Occurrence>1.0</Occurrence>
+      </Ingredient>
+      <Ingredient>
+        <IngredientID>TATER_TOTS</IngredientID>
+        <Amount>1</Amount>
+        <Occurrence>1.0</Occurrence>
+      </Ingredient>
+      <Ingredient>
+        <IngredientID>SALT</IngredientID>
+        <Amount>1</Amount>
+        <Occurrence>0.9</Occurrence>
+      </Ingredient>
+      <Ingredient>
+        <IngredientID>PEPPER</IngredientID>
+        <Amount>1</Amount>
+        <Occurrence>0.9</Occurrence>
+      </Ingredient>
+    </Ingredients>
+  </Recipe>
+  <Recipe ID="MEDIUM_TATER_TOTS">
+    <Name>Medium Tater Tots</Name>
+    <Type>FRIED_SIDES</Type>
+    <Ingredients>
+      <Ingredient>
+        <IngredientID>MEDIUM_CONTAINER</IngredientID>
+        <Amount>1</Amount>
+        <Occurrence>1.0</Occurrence>
+      </Ingredient>
+      <Ingredient>
+        <IngredientID>TATER_TOTS</IngredientID>
+        <Amount>1</Amount>
+        <Occurrence>1.0</Occurrence>
+      </Ingredient>
+      <Ingredient>
+        <IngredientID>SALT</IngredientID>
+        <Amount>1</Amount>
+        <Occurrence>0.9</Occurrence>
+      </Ingredient>
+      <Ingredient>
+        <IngredientID>PEPPER</IngredientID>
+        <Amount>1</Amount>
+        <Occurrence>0.9</Occurrence>
+      </Ingredient>
+    </Ingredients>
+  </Recipe>
+  <Recipe ID="LARGE_TATER_TOTS">
+    <Name>Large Tater Tots</Name>
+    <Type>FRIED_SIDES</Type>
+    <Ingredients>
+      <Ingredient>
+        <IngredientID>LARGE_CONTAINER</IngredientID>
+        <Amount>1</Amount>
+        <Occurrence>1.0</Occurrence>
+      </Ingredient>
+      <Ingredient>
+        <IngredientID>TATER_TOTS</IngredientID>
+        <Amount>1</Amount>
+        <Occurrence>1.0</Occurrence>
+      </Ingredient>
+      <Ingredient>
+        <IngredientID>SALT</IngredientID>
+        <Amount>1</Amount>
+        <Occurrence>0.9</Occurrence>
+      </Ingredient>
+      <Ingredient>
+        <IngredientID>PEPPER</IngredientID>
+        <Amount>1</Amount>
+        <Occurrence>0.9</Occurrence>
+      </Ingredient>
+    </Ingredients>
+  </Recipe>
+  
+  <!-- SOFT DRINKS -->
+  
+  <!-- Water -->
+  
+  <Recipe ID="SMALL_WATER">
+    <Name>Small Water</Name>
+    <Type>SOFT_DRINK</Type>
+    <Ingredients>
+      <Ingredient>
+        <IngredientID>SMALL_CUP</IngredientID>
+        <Amount>1</Amount>
+        <Occurrence>1.0</Occurrence>
+      </Ingredient>
+      <Ingredient>
+        <IngredientID>WATER</IngredientID>
+        <Amount>1</Amount>
+        <Occurrence>1.0</Occurrence>
+      </Ingredient>
+      <Ingredient>
+        <IngredientID>ICE</IngredientID>
+        <Amount>1</Amount>
+        <Occurrence>0.6</Occurrence>
+      </Ingredient>
+    </Ingredients>
+  </Recipe>
+  <Recipe ID="MEDIUM_WATER">
+    <Name>Medium Water</Name>
+    <Type>SOFT_DRINK</Type>
+    <Ingredients>
+      <Ingredient>
+        <IngredientID>MEDIUM_CUP</IngredientID>
+        <Amount>1</Amount>
+        <Occurrence>1.0</Occurrence>
+      </Ingredient>
+      <Ingredient>
+        <IngredientID>WATER</IngredientID>
+        <Amount>1</Amount>
+        <Occurrence>1.0</Occurrence>
+      </Ingredient>
+      <Ingredient>
+        <IngredientID>ICE</IngredientID>
+        <Amount>1</Amount>
+        <Occurrence>0.6</Occurrence>
+      </Ingredient>
+    </Ingredients>
+  </Recipe>
+  <Recipe ID="LARGE_WATER">
+    <Name>Large Water</Name>
+    <Type>SOFT_DRINK</Type>
+    <Ingredients>
+      <Ingredient>
+        <IngredientID>LARGE_CUP</IngredientID>
+        <Amount>1</Amount>
+        <Occurrence>1.0</Occurrence>
+      </Ingredient>
+      <Ingredient>
+        <IngredientID>WATER</IngredientID>
+        <Amount>1</Amount>
+        <Occurrence>1.0</Occurrence>
+      </Ingredient>
+      <Ingredient>
+        <IngredientID>ICE</IngredientID>
+        <Amount>1</Amount>
+        <Occurrence>0.6</Occurrence>
+      </Ingredient>
+    </Ingredients>
+  </Recipe>
+  
+  <!-- Cola -->
+
+  <Recipe ID="SMALL_COLA">
+    <Name>Small Cola</Name>
+    <Type>SOFT_DRINK</Type>
+    <Ingredients>
+      <Ingredient>
+        <IngredientID>SMALL_CUP</IngredientID>
+        <Amount>1</Amount>
+        <Occurrence>1.0</Occurrence>
+      </Ingredient>
+      <Ingredient>
+        <IngredientID>COLA</IngredientID>
+        <Amount>1</Amount>
+        <Occurrence>1.0</Occurrence>
+      </Ingredient>
+      <Ingredient>
+        <IngredientID>ICE</IngredientID>
+        <Amount>1</Amount>
+        <Occurrence>0.6</Occurrence>
+      </Ingredient>
+    </Ingredients>
+  </Recipe>
+  <Recipe ID="MEDIUM_COLA">
+    <Name>Medium Cola</Name>
+    <Type>SOFT_DRINK</Type>
+    <Ingredients>
+      <Ingredient>
+        <IngredientID>MEDIUM_CUP</IngredientID>
+        <Amount>1</Amount>
+        <Occurrence>1.0</Occurrence>
+      </Ingredient>
+      <Ingredient>
+        <IngredientID>COLA</IngredientID>
+        <Amount>1</Amount>
+        <Occurrence>1.0</Occurrence>
+      </Ingredient>
+      <Ingredient>
+        <IngredientID>ICE</IngredientID>
+        <Amount>1</Amount>
+        <Occurrence>0.6</Occurrence>
+      </Ingredient>
+    </Ingredients>
+  </Recipe>
+  <Recipe ID="LARGE_COLA">
+    <Name>Large Cola</Name>
+    <Type>SOFT_DRINK</Type>
+    <Ingredients>
+      <Ingredient>
+        <IngredientID>LARGE_CUP</IngredientID>
+        <Amount>1</Amount>
+        <Occurrence>1.0</Occurrence>
+      </Ingredient>
+      <Ingredient>
+        <IngredientID>COLA</IngredientID>
+        <Amount>1</Amount>
+        <Occurrence>1.0</Occurrence>
+      </Ingredient>
+      <Ingredient>
+        <IngredientID>ICE</IngredientID>
+        <Amount>1</Amount>
+        <Occurrence>0.6</Occurrence>
+      </Ingredient>
+    </Ingredients>
+  </Recipe>
+  
+  <!-- Diet Cola -->
+
+  <Recipe ID="SMALL_DIET_COLA">
+    <Name>Small Diet Cola</Name>
+    <Type>SOFT_DRINK</Type>
+    <Ingredients>
+      <Ingredient>
+        <IngredientID>SMALL_CUP</IngredientID>
+        <Amount>1</Amount>
+        <Occurrence>1.0</Occurrence>
+      </Ingredient>
+      <Ingredient>
+        <IngredientID>DIET_COLA</IngredientID>
+        <Amount>1</Amount>
+        <Occurrence>1.0</Occurrence>
+      </Ingredient>
+      <Ingredient>
+        <IngredientID>ICE</IngredientID>
+        <Amount>1</Amount>
+        <Occurrence>0.6</Occurrence>
+      </Ingredient>
+    </Ingredients>
+  </Recipe>
+  <Recipe ID="MEDIUM_DIET_COLA">
+    <Name>Medium Diet Cola</Name>
+    <Type>SOFT_DRINK</Type>
+    <Ingredients>
+      <Ingredient>
+        <IngredientID>MEDIUM_CUP</IngredientID>
+        <Amount>1</Amount>
+        <Occurrence>1.0</Occurrence>
+      </Ingredient>
+      <Ingredient>
+        <IngredientID>DIET_COLA</IngredientID>
+        <Amount>1</Amount>
+        <Occurrence>1.0</Occurrence>
+      </Ingredient>
+      <Ingredient>
+        <IngredientID>ICE</IngredientID>
+        <Amount>1</Amount>
+        <Occurrence>0.6</Occurrence>
+      </Ingredient>
+    </Ingredients>
+  </Recipe>
+  <Recipe ID="LARGE_DIET_COLA">
+    <Name>Large Diet Cola</Name>
+    <Type>SOFT_DRINK</Type>
+    <Ingredients>
+      <Ingredient>
+        <IngredientID>LARGE_CUP</IngredientID>
+        <Amount>1</Amount>
+        <Occurrence>1.0</Occurrence>
+      </Ingredient>
+      <Ingredient>
+        <IngredientID>DIET_COLA</IngredientID>
+        <Amount>1</Amount>
+        <Occurrence>1.0</Occurrence>
+      </Ingredient>
+      <Ingredient>
+        <IngredientID>ICE</IngredientID>
+        <Amount>1</Amount>
+        <Occurrence>0.6</Occurrence>
+      </Ingredient>
+    </Ingredients>
+  </Recipe>
+  
+  <!-- Pixie -->
+
+  <Recipe ID="SMALL_PIXIE">
+    <Name>Small Pixie</Name>
+    <Type>SOFT_DRINK</Type>
+    <Ingredients>
+      <Ingredient>
+        <IngredientID>SMALL_CUP</IngredientID>
+        <Amount>1</Amount>
+        <Occurrence>1.0</Occurrence>
+      </Ingredient>
+      <Ingredient>
+        <IngredientID>PIXIE</IngredientID>
+        <Amount>1</Amount>
+        <Occurrence>1.0</Occurrence>
+      </Ingredient>
+      <Ingredient>
+        <IngredientID>ICE</IngredientID>
+        <Amount>1</Amount>
+        <Occurrence>0.6</Occurrence>
+      </Ingredient>
+    </Ingredients>
+  </Recipe>
+  <Recipe ID="MEDIUM_PIXIE">
+    <Name>Medium Pixie</Name>
+    <Type>SOFT_DRINK</Type>
+    <Ingredients>
+      <Ingredient>
+        <IngredientID>MEDIUM_CUP</IngredientID>
+        <Amount>1</Amount>
+        <Occurrence>1.0</Occurrence>
+      </Ingredient>
+      <Ingredient>
+        <IngredientID>PIXIE</IngredientID>
+        <Amount>1</Amount>
+        <Occurrence>1.0</Occurrence>
+      </Ingredient>
+      <Ingredient>
+        <IngredientID>ICE</IngredientID>
+        <Amount>1</Amount>
+        <Occurrence>0.6</Occurrence>
+      </Ingredient>
+    </Ingredients>
+  </Recipe>
+  <Recipe ID="LARGE_PIXIE">
+    <Name>Large Pixie</Name>
+    <Type>SOFT_DRINK</Type>
+    <Ingredients>
+      <Ingredient>
+        <IngredientID>LARGE_CUP</IngredientID>
+        <Amount>1</Amount>
+        <Occurrence>1.0</Occurrence>
+      </Ingredient>
+      <Ingredient>
+        <IngredientID>PIXIE</IngredientID>
+        <Amount>1</Amount>
+        <Occurrence>1.0</Occurrence>
+      </Ingredient>
+      <Ingredient>
+        <IngredientID>ICE</IngredientID>
+        <Amount>1</Amount>
+        <Occurrence>0.6</Occurrence>
+      </Ingredient>
+    </Ingredients>
+  </Recipe>
+  
+  <!-- Tango -->
+
+  <Recipe ID="SMALL_TANGO">
+    <Name>Small Tango</Name>
+    <Type>SOFT_DRINK</Type>
+    <Ingredients>
+      <Ingredient>
+        <IngredientID>SMALL_CUP</IngredientID>
+        <Amount>1</Amount>
+        <Occurrence>1.0</Occurrence>
+      </Ingredient>
+      <Ingredient>
+        <IngredientID>TANGO</IngredientID>
+        <Amount>1</Amount>
+        <Occurrence>1.0</Occurrence>
+      </Ingredient>
+      <Ingredient>
+        <IngredientID>ICE</IngredientID>
+        <Amount>1</Amount>
+        <Occurrence>0.6</Occurrence>
+      </Ingredient>
+    </Ingredients>
+  </Recipe>
+  <Recipe ID="MEDIUM_TANGO">
+    <Name>Medium Tango</Name>
+    <Type>SOFT_DRINK</Type>
+    <Ingredients>
+      <Ingredient>
+        <IngredientID>MEDIUM_CUP</IngredientID>
+        <Amount>1</Amount>
+        <Occurrence>1.0</Occurrence>
+      </Ingredient>
+      <Ingredient>
+        <IngredientID>TANGO</IngredientID>
+        <Amount>1</Amount>
+        <Occurrence>1.0</Occurrence>
+      </Ingredient>
+      <Ingredient>
+        <IngredientID>ICE</IngredientID>
+        <Amount>1</Amount>
+        <Occurrence>0.6</Occurrence>
+      </Ingredient>
+    </Ingredients>
+  </Recipe>
+  <Recipe ID="LARGE_TANGO">
+    <Name>Large Tango</Name>
+    <Type>SOFT_DRINK</Type>
+    <Ingredients>
+      <Ingredient>
+        <IngredientID>LARGE_CUP</IngredientID>
+        <Amount>1</Amount>
+        <Occurrence>1.0</Occurrence>
+      </Ingredient>
+      <Ingredient>
+        <IngredientID>TANGO</IngredientID>
+        <Amount>1</Amount>
+        <Occurrence>1.0</Occurrence>
+      </Ingredient>
+      <Ingredient>
+        <IngredientID>ICE</IngredientID>
+        <Amount>1</Amount>
+        <Occurrence>0.6</Occurrence>
+      </Ingredient>
+    </Ingredients>
+  </Recipe>
+  
+  <!-- Root Beer -->
+
+  <Recipe ID="SMALL_ROOT_BEER">
+    <Name>Small Root Beer</Name>
+    <Type>SOFT_DRINK</Type>
+    <Ingredients>
+      <Ingredient>
+        <IngredientID>SMALL_CUP</IngredientID>
+        <Amount>1</Amount>
+        <Occurrence>1.0</Occurrence>
+      </Ingredient>
+      <Ingredient>
+        <IngredientID>ROOT_BEER</IngredientID>
+        <Amount>1</Amount>
+        <Occurrence>1.0</Occurrence>
+      </Ingredient>
+      <Ingredient>
+        <IngredientID>ICE</IngredientID>
+        <Amount>1</Amount>
+        <Occurrence>0.6</Occurrence>
+      </Ingredient>
+    </Ingredients>
+  </Recipe>
+  <Recipe ID="MEDIUM_ROOT_BEER">
+    <Name>Medium Root Beer</Name>
+    <Type>SOFT_DRINK</Type>
+    <Ingredients>
+      <Ingredient>
+        <IngredientID>MEDIUM_CUP</IngredientID>
+        <Amount>1</Amount>
+        <Occurrence>1.0</Occurrence>
+      </Ingredient>
+      <Ingredient>
+        <IngredientID>ROOT_BEER</IngredientID>
+        <Amount>1</Amount>
+        <Occurrence>1.0</Occurrence>
+      </Ingredient>
+      <Ingredient>
+        <IngredientID>ICE</IngredientID>
+        <Amount>1</Amount>
+        <Occurrence>0.6</Occurrence>
+      </Ingredient>
+    </Ingredients>
+  </Recipe>
+  <Recipe ID="LARGE_ROOT_BEER">
+    <Name>Large Root Beer</Name>
+    <Type>SOFT_DRINK</Type>
+    <Ingredients>
+      <Ingredient>
+        <IngredientID>LARGE_CUP</IngredientID>
+        <Amount>1</Amount>
+        <Occurrence>1.0</Occurrence>
+      </Ingredient>
+      <Ingredient>
+        <IngredientID>ROOT_BEER</IngredientID>
+        <Amount>1</Amount>
+        <Occurrence>1.0</Occurrence>
+      </Ingredient>
+      <Ingredient>
+        <IngredientID>ICE</IngredientID>
+        <Amount>1</Amount>
+        <Occurrence>0.6</Occurrence>
+      </Ingredient>
+    </Ingredients>
+  </Recipe>
+</Database>

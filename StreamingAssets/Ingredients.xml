@@ -1,0 +1,200 @@
+<!-- LEGEND -->
+<!-- Ingredient ID - Used to identify the ingredient. -->
+<!-- Name - The name of the ingredient that appears in-game. -->
+<!-- Type - The ID that denotes what type of ingredient htis is. -->
+<!-- Station - The station this ingredient exclusively appears at. -->
+<!-- Keybind - The current key used to add this ingredient when it is active. -->
+<!-- Mutually Exclusive - Determines whether the ingredient will be able to be added to an order with other ingredients of its type. -->
+<!-- Max Per Order - The maximum amount of this ingredient that can appear in any given order for any food or recipe. -->
+<Database>
+  <!-- Simple Burgers -->
+  <Ingredient ID="BEEF_PATTY">
+    <Name>Beef Patty</Name>
+    <Type>MEAT</Type>
+    <Station>TOPPING</Station>
+    <Keybind>B</Keybind>
+    <MutuallyExclusive>false</MutuallyExclusive>
+    <MaxPerOrder>3</MaxPerOrder>
+  </Ingredient>
+  <Ingredient ID="WHITE_BUN">
+    <Name>White Bun</Name>
+    <Type>BUN</Type>
+    <Station>TOPPING</Station>
+    <Keybind>W</Keybind>
+    <MutuallyExclusive>false</MutuallyExclusive>
+    <MaxPerOrder>2</MaxPerOrder>
+  </Ingredient>
+  <Ingredient ID="PICKLES">
+    <Name>Pickles</Name>
+    <Type>TOPPING</Type>
+    <Station>TOPPING</Station>
+    <Keybind>P</Keybind>
+    <MutuallyExclusive>false</MutuallyExclusive>
+    <MaxPerOrder>1</MaxPerOrder>
+  </Ingredient>
+  <Ingredient ID="KETCHUP">
+    <Name>Ketchup</Name>
+    <Type>CONDIMENT</Type>
+    <Station>TOPPING</Station>
+    <Keybind>K</Keybind>
+    <MutuallyExclusive>false</MutuallyExclusive>
+    <MaxPerOrder>1</MaxPerOrder>
+  </Ingredient>
+  <Ingredient ID="MUSTARD">
+    <Name>Mustard</Name>
+    <Type>CONDIMENT</Type>
+    <Station>TOPPING</Station>
+    <Keybind>M</Keybind>
+    <MutuallyExclusive>false</MutuallyExclusive>
+    <MaxPerOrder>1</MaxPerOrder>
+  </Ingredient>
+  <Ingredient ID="AMERICAN_CHEESE">
+    <Name>American Cheese</Name>
+    <Type>CHEESE</Type>
+    <Station>TOPPING</Station>
+    <Keybind>A</Keybind>
+    <MutuallyExclusive>false</MutuallyExclusive>
+    <MaxPerOrder>3</MaxPerOrder>
+  </Ingredient>
+  
+  <!-- Fried Sides -->
+  <Ingredient ID="FRENCH_FRIES">
+    <Name>French Fries</Name>
+    <Type>SIDE</Type>
+    <Station>SIDES</Station>
+    <Keybind>F</Keybind>
+    <MutuallyExclusive>true</MutuallyExclusive>
+    <MaxPerOrder>1</MaxPerOrder>
+  </Ingredient>
+  <Ingredient ID="TATER_TOTS">
+    <Name>Tater Tots</Name>
+    <Type>SIDE</Type>
+    <Station>SIDES</Station>
+    <Keybind>T</Keybind>
+    <MutuallyExclusive>true</MutuallyExclusive>
+    <MaxPerOrder>1</MaxPerOrder>
+  </Ingredient>
+  <Ingredient ID="SALT">
+    <Name>Salt</Name>
+    <Type>SEASONING</Type>
+    <Station>SIDES</Station>
+    <Keybind>S</Keybind>
+    <MutuallyExclusive>false</MutuallyExclusive>
+    <MaxPerOrder>1</MaxPerOrder>
+  </Ingredient>
+  <Ingredient ID="PEPPER">
+    <Name>Pepper</Name>
+    <Type>SEASONING</Type>
+    <Station>SIDES</Station>
+    <Keybind>P</Keybind>
+    <MutuallyExclusive>false</MutuallyExclusive>
+    <MaxPerOrder>1</MaxPerOrder>
+  </Ingredient>
+  <Ingredient ID="SMALL_CONTAINER">
+    <Name>Small Container</Name>
+    <Type>CONTAINER</Type>
+    <Station>SIDES</Station>
+    <Keybind>S</Keybind>
+    <MutuallyExclusive>true</MutuallyExclusive>
+    <MaxPerOrder>1</MaxPerOrder>
+  </Ingredient>
+  <Ingredient ID="MEDIUM_CONTAINER">
+    <Name>Medium Container</Name>
+    <Type>CONTAINER</Type>
+    <Station>SIDES</Station>
+    <Keybind>M</Keybind>
+    <MutuallyExclusive>true</MutuallyExclusive>
+    <MaxPerOrder>1</MaxPerOrder>
+  </Ingredient>
+  <Ingredient ID="LARGE_CONTAINER">
+    <Name>Large Container</Name>
+    <Type>CONTAINER</Type>
+    <Station>SIDES</Station>
+    <Keybind>L</Keybind>
+    <MutuallyExclusive>true</MutuallyExclusive>
+    <MaxPerOrder>1</MaxPerOrder>
+  </Ingredient>
+  
+  <!-- Soft Drinks -->
+  
+  <Ingredient ID="SMALL_CUP">
+    <Name>Small Cup</Name>
+    <Type>CUP</Type>
+    <Station>DRINK</Station>
+    <Keybind>S</Keybind>
+    <MutuallyExclusive>true</MutuallyExclusive>
+    <MaxPerOrder>1</MaxPerOrder>
+  </Ingredient>
+  <Ingredient ID="MEDIUM_CUP">
+    <Name>Medium Cup</Name>
+    <Type>CUP</Type>
+    <Station>DRINK</Station>
+    <Keybind>M</Keybind>
+    <MutuallyExclusive>true</MutuallyExclusive>
+    <MaxPerOrder>1</MaxPerOrder>
+  </Ingredient>
+  <Ingredient ID="LARGE_CUP">
+    <Name>Large Cup</Name>
+    <Type>CUP</Type>
+    <Station>DRINK</Station>
+    <Keybind>L</Keybind>
+    <MutuallyExclusive>true</MutuallyExclusive>
+    <MaxPerOrder>1</MaxPerOrder>
+  </Ingredient>
+  <Ingredient ID="ICE">
+    <Name>Ice</Name>
+    <Type>ENHANCEMENT</Type>
+    <Station>DRINK</Station>
+    <Keybind>I</Keybind>
+    <MutuallyExclusive>false</MutuallyExclusive>
+    <MaxPerOrder>1</MaxPerOrder>
+  </Ingredient>
+  <Ingredient ID="WATER">
+    <Name>Water</Name>
+    <Type>DRINK</Type>
+    <Station>DRINK</Station>
+    <Keybind>W</Keybind>
+    <MutuallyExclusive>false</MutuallyExclusive>
+    <MaxPerOrder>1</MaxPerOrder>
+  </Ingredient>
+  <Ingredient ID="COLA">
+    <Name>Cola</Name>
+    <Type>DRINK</Type>
+    <Station>DRINK</Station>
+    <Keybind>C</Keybind>
+    <MutuallyExclusive>false</MutuallyExclusive>
+    <MaxPerOrder>1</MaxPerOrder>
+  </Ingredient>
+  <Ingredient ID="DIET_COLA">
+    <Name>Diet Cola</Name>
+    <Type>DRINK</Type>
+    <Station>DRINK</Station>
+    <Keybind>D</Keybind>
+    <MutuallyExclusive>false</MutuallyExclusive>
+    <MaxPerOrder>1</MaxPerOrder>
+  </Ingredient>
+  <Ingredient ID="PIXIE">
+    <Name>Pixie</Name>
+    <Type>DRINK</Type>
+    <Station>DRINK</Station>
+    <Keybind>P</Keybind>
+    <MutuallyExclusive>false</MutuallyExclusive>
+    <MaxPerOrder>1</MaxPerOrder>
+  </Ingredient>
+  <Ingredient ID="TANGO">
+    <Name>Tango</Name>
+    <Type>DRINK</Type>
+    <Station>DRINK</Station>
+    <Keybind>T</Keybind>
+    <MutuallyExclusive>false</MutuallyExclusive>
+    <MaxPerOrder>1</MaxPerOrder>
+  </Ingredient>
+  <Ingredient ID="ROOT_BEER">
+    <Name>Root Beer</Name>
+    <Type>DRINK</Type>
+    <Station>DRINK</Station>
+    <Keybind>R</Keybind>
+    <MutuallyExclusive>false</MutuallyExclusive>
+    <MaxPerOrder>1</MaxPerOrder>
+  </Ingredient>
+</Database>

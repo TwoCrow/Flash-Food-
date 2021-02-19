@@ -1,0 +1,81 @@
+<!-- LEGEND -->
+<!-- Food ID - Used to identify the food. -->
+<!-- Type - Determines what slot this food takes up in the ticket. -->
+<!-- Recipes - A list of recipes tied to this food type. -->
+<!-- Ingredients - Used to keep track of the order of ingredient pages for foods of this type. -->
+
+<Database>
+  <Food ID="SIMPLE_BURGER">
+    <Type>ENTREE</Type>
+    <Recipes>
+        <RecipeID>HAMBURGER</RecipeID>
+        <RecipeID>DOUBLE_HAMBURGER</RecipeID>
+        <RecipeID>TRIPLE_HAMBURGER</RecipeID>
+    </Recipes>
+    <Ingredients>
+      <Ingredient>BUN</Ingredient>
+      <Ingredient>MEAT</Ingredient>
+      <Ingredient>TOPPING</Ingredient>
+      <Ingredient>CONDIMENT</Ingredient>
+    </Ingredients>
+  </Food>
+  <Food ID="SIMPLE_CHEESEBURGER">
+    <Type>ENTREE</Type>
+    <Recipes>
+        <RecipeID>CHEESEBURGER</RecipeID>
+        <RecipeID>DOUBLE_CHEESEBURGER</RecipeID>
+        <RecipeID>TRIPLE_CHEESEBURGER</RecipeID>
+    </Recipes>
+    <Ingredients>
+      <Ingredient>BUN</Ingredient>
+      <Ingredient>MEAT</Ingredient>
+      <Ingredient>CHEESE</Ingredient>
+      <Ingredient>TOPPING</Ingredient>
+      <Ingredient>CONDIMENT</Ingredient>
+    </Ingredients>
+  </Food>
+  <Food ID="FRIED_SIDES">
+    <Type>SIDE</Type>
+    <Recipes>
+      <RecipeID>SMALL_FRENCH_FRIES</RecipeID>
+      <RecipeID>MEDIUM_FRENCH_FRIES</RecipeID>
+      <RecipeID>LARGE_FRENCH_FRIES</RecipeID>
+      <RecipeID>SMALL_TATER_TOTS</RecipeID>
+      <RecipeID>MEDIUM_TATER_TOTS</RecipeID>
+      <RecipeID>LARGE_TATER_TOTS</RecipeID>
+    </Recipes>
+    <Ingredients>
+      <Ingredient>CONTAINER</Ingredient>
+      <Ingredient>SIDE</Ingredient>
+      <Ingredient>SEASONING</Ingredient>
+    </Ingredients>
+  </Food>
+  <Food ID="SOFT_DRINK">
+    <Type>DRINK</Type>
+    <Recipes>
+      <RecipeID>SMALL_WATER</RecipeID>
+      <RecipeID>MEDIUM_WATER</RecipeID>
+      <RecipeID>LARGE_WATER</RecipeID>
+      <RecipeID>SMALL_COLA</RecipeID>
+      <RecipeID>MEDIUM_COLA</RecipeID>
+      <RecipeID>LARGE_COLA</RecipeID>
+      <RecipeID>SMALL_DIET_COLA</RecipeID>
+      <RecipeID>MEDIUM_DIET_COLA</RecipeID>
+      <RecipeID>LARGE_DIET_COLA</RecipeID>
+      <RecipeID>SMALL_PIXIE</RecipeID>
+      <RecipeID>MEDIUM_PIXIE</RecipeID>
+      <RecipeID>LARGE_PIXIE</RecipeID>
+      <RecipeID>SMALL_TANGO</RecipeID>
+      <RecipeID>MEDIUM_TANGO</RecipeID>
+      <RecipeID>LARGE_TANGO</RecipeID>
+      <RecipeID>SMALL_ROOT_BEER</RecipeID>
+      <RecipeID>MEDIUM_ROOT_BEER</RecipeID>
+      <RecipeID>LARGE_ROOT_BEER</RecipeID>
+    </Recipes>
+    <Ingredients>
+      <Ingredient>CUP</Ingredient>
+      <Ingredient>DRINK</Ingredient>
+      <Ingredient>ENHANCEMENT</Ingredient>
+    </Ingredients>
+  </Food>
+</Database>
